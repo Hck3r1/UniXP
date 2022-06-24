@@ -9,10 +9,10 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title  -->
-    <title>sApp - App Landing Page | 404</title>
+    <title>UniXP - Page not Found </title>
 
     <!-- Favicon  -->
-    <link rel="icon" href="assets/img/favicon.png">
+    <link rel="icon" href="assets/img/unixp-favicon.png">
 
     <!-- ***** All CSS Files ***** -->
 
@@ -37,7 +37,7 @@
                         <div class="welcome-intro error-area text-center">
                             <h1 class="text-white">404</h1>
                             <p class="text-white my-4">The page you are looking for might have been removed had its name changed or is temporarily unavailable.</p>
-                            <a href="index.html" class="btn sApp-btn text-uppercase">Go to Homepage</a>
+                            <a href="index.php" class="btn sApp-btn text-uppercase">Go to Homepage</a>
                         </div>
                     </div>
                 </div>
