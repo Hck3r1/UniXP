@@ -32,7 +32,7 @@
         <!-- ***** Header Start ***** -->
         <header class="navbar navbar-sticky navbar-expand-lg navbar-dark">
             <div class="container position-relative">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="index.php">
                     <img class="navbar-brand-regular" src="assets/img/logo/unixp-logo-white.png" alt="UniXP-logo">
                     <img class="navbar-brand-sticky" src="assets/img/logo/unixp-logo.png" alt="sticky UniXP-logo">
                 </a>
@@ -276,7 +276,8 @@
                                 Features
                             </span>
                             <h2>What Makes UniXP Different?</h2>
-                            <p class="d-none d-sm-block mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati dignissimos quae quo ad iste ipsum officiis deleniti asperiores sit.</p>
+                            <p class="d-none d-sm-block mt-4">The most unique thing about our app is that it is the first of its kind. We conducted some research to determine whether an app like that already exists and we found nothing like it. UniXp is basically a student guide/handbook. From helping students move around the university to helping students find tutors, eateries and get the latest news, it presents a solution to an everlasting problem.
+                            </p>
                             <p class="d-block d-sm-none mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati.</p>
                         </div>
                     </div>
@@ -336,7 +337,7 @@
                     <div class="col-12 col-lg-6 order-2 order-lg-1">
                         <!-- Service Text -->
                         <div class="service-text pt-4 pt-lg-0">
-                            <h2 class="text-capitalize mb-4">Make your Device Manage Everything For you</h2>
+                            <h2 class="text-capitalize mb-4">Make UniXP Manage Everything For you</h2>
                             <!-- Service List -->
                             <ul class="service-list">
                                 <!-- Single Service -->
@@ -1097,7 +1098,7 @@
                                         </div>
                                     </div>
                                     <div class="col-12">
-                                        <button type="submit" class="btn btn-lg btn-block mt-3"><span class="text-white pr-3" onclick="sendEmail()"><i class="fas fa-paper-plane"></i></span>Send Message</button>
+                                        <button type="submit" name="submit" class="btn btn-lg btn-block mt-3"><span class="text-white pr-3" ><i class="fas fa-paper-plane"></i></span>Send Message</button>
                                     </div>
                                 </div>
                             </form>
