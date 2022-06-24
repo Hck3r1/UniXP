@@ -32,7 +32,7 @@
         <!-- ***** Header Start ***** -->
         <header class="navbar navbar-sticky navbar-expand-lg navbar-dark">
             <div class="container position-relative">
-                <a class="navbar-brand" href=">
+                <a class="navbar-brand" href="index.php">
                     <img class="navbar-brand-regular" src="assets/img/logo/logo-white.png" alt="brand-logo">
                     <img class="navbar-brand-sticky" src="assets/img/logo/logo.png" alt="sticky brand-logo">
                 </a>
