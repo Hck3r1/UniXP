@@ -22,7 +22,7 @@ use PHPMailer\PHPMailer\Exception;
         $txt = "You have received an email from" .$name."\n\n".$message;
 
         mail($mailTo, $subject, $txt, $headers);
-        header("Location: index.html?mailsend");
+        header("Location: index.php?mailsend");
     }
 // Create instance of PHPMailer
                     $mail = new PHPMailer();
