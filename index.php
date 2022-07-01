@@ -58,120 +58,24 @@ use PHPMailer\PHPMailer\Exception;
                     </button>
                     <nav>
                         <ul class="navbar-nav" id="navbar-nav">
-                            <!-- <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="javascript:;" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Home
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li>
-                                        <a class="dropdown-item" href="index.html">Homepage-1</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="index-2.html">Homepage-2</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="index-3.html">Homepage-3</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="index-4.html">Homepage-4</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="index-5.html">Homepage-5</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="index-6.html">Homepage-6</a>
-                                    </li>
-                                </ul>
-                            </li> -->
+                           
                             <li class="nav-item">
                                 <a class="nav-link scroll" href="#features">Features</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <!-- <a class="nav-link dropdown-toggle" href="javascript:;" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Pages
-                                </a> -->
+                                
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <!-- <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="javascript:;">Inner Pages<span class="badge badge-pill badge-warning ml-2">New</span></a> -->
-                                        <!-- <ul class="dropdown-menu">
-                                            <li>
-                                                <a class="dropdown-item" href="pricing.html">Pricing</a>
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item" href="download.html">Download</a>
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item" href="newsletter.html">Newsletter</a>
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item" href="thank-you.html">Thank you</a>
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item" href="coming-soon.html">Coming Soon</a>
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item" href="404.html">404</a>
-                                            </li>
-                                        </ul> -->
+                                   
                                     </li>
-                                    <!-- <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="javascript:;">Blog Pages</a>
-                                        <ul class="dropdown-menu">
-                                            <li>
-                                                <a class="dropdown-item" href="blog-two-column.html">Blog- 2 Column</a>
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item" href="blog-three-column.html">Blog- 3 Column</a>
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item" href="blog-left-sidebar.html">Blog- Left Sidebar</a>
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item" href="blog-right-sidebar.html">Blog- Right Sidebar</a>
-                                            </li>
-                                        </ul>
-                                    </li> -->
-                                    <!-- <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="javascript:;">Blog Details</a>
-                                        <ul class="dropdown-menu">
-                                            <li>
-                                                <a class="dropdown-item" href="blog-details-left-sidebar.html">Blog Details- Left Sidebar</a>
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item" href="blog-details-right-sidebar.html">Blog Details- Right Sidebar</a>
-                                            </li>
-                                        </ul> -->
+                                   
                                     </li>
-                                    <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="javascript:;">Accounts<span class="badge badge-pill badge-warning ml-2">New</span></a>
-                                        <ul class="dropdown-menu">
-                                            <li>
-                                                <a class="dropdown-item" href="login.html">Login</a>
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item" href="signup.html">Signup</a>
-                                            </li>
-                                            <li>
-                                                <a class="dropdown-item" href="forgot.html">Reset Password</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="reviews.html">Reviews</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="faq.html">FAQ</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="contact.html">Contact</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item disabled" href="#">More Coming Soon</a>
-                                    </li>
+                                    
                                 </ul>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link scroll" href="#screenshots">Screenshots</a>
                             </li>
-                            <!-- <li class="nav-item">
-                                <a class="nav-link scroll" href="#pricing">Pricing</a>
-                            </li> -->
+                           
                             <li class="nav-item">
                                 <a class="nav-link scroll" href="#contact">Contact</a>
                             </li>
@@ -208,7 +112,7 @@ use PHPMailer\PHPMailer\Exception;
                     <div class="col-12 col-md-5 col-lg-6">
                         <!-- Welcome Thumb -->
                         <div class="welcome-thumb mx-auto" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000">
-                            <img src="assets/img/welcome/unixp-welcome-mockup.png" alt="">
+                            <img src="assets/img/welcome/unixp-welcome-mockup1.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -1025,14 +929,14 @@ use PHPMailer\PHPMailer\Exception;
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-10 col-lg-8">
                         <div class="subscribe-content text-center">
-                            <h2>Subscribe to get updates</h2>
-                            <p class="my-4">By subscribing you will get newsleter, promotions adipisicing elit. Architecto beatae, asperiores tempore repudiandae saepe aspernatur unde voluptate sapiente quia ex.</p>
+                            <h2>Subscribe to get updates from UniXP</h2>
+                            <p class="my-4">By subscribing you will get newsleter, promotions from UniXP</p>
                             <!-- Subscribe Form -->
                             <form class="subscribe-form">
                                 <div class="form-group">
                                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
                                 </div>
-                                <button type="submit" class="btn btn-lg btn-block">Subscribe</button>
+                                <button type="subscribe" class="btn btn-lg btn-block">Subscribe</button>
                             </form>
                         </div>
                     </div>
@@ -1057,7 +961,7 @@ use PHPMailer\PHPMailer\Exception;
                     <div class="col-12 col-md-5">
                         <!-- Contact Us -->
                         <div class="contact-us">
-                            <p class="mb-3">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                            <p class="mb-3">You can reach out to UniXP via the following means</p>
                             <ul>
                                 <li class="py-2">
                                     <a class="media" href="#">
@@ -1076,11 +980,27 @@ use PHPMailer\PHPMailer\Exception;
                                     </a>
                                 </li>
                                 <li class="py-2">
-                                    <a class="media" href="#">
+                                    <a class="media" href="https://www.instagram.com/_unixp/">
+                                        <div class="social-icon mr-3">
+                                            <i class="fab fa-instagram"></i>
+                                        </div>
+                                        <span class="media-body align-self-center">@_UniXP</span>
+                                    </a>
+                                </li>
+                                <li class="py-2">
+                                    <a class="media" href="https://www.twitter.com/_unixp/">
+                                        <div class="social-icon mr-3">
+                                            <i class="fab fa-twitter"></i>
+                                        </div>
+                                        <span class="media-body align-self-center">@_UniXP</span>
+                                    </a>
+                                </li>
+                                <li class="py-2">
+                                    <a class="media" href="mailTo: unixpadmin@wetindeycodeacademy.com.ng">
                                         <div class="social-icon mr-3">
                                             <i class="fas fa-envelope"></i>
                                         </div>
-                                        <span class="media-body align-self-center">unixpcontact@gmail.com</span>
+                                        <span class="media-body align-self-center">unixpadmin@wetindeycodeacademy.com.ng</span>
                                     </a>
                                 </li>
                             </ul>
@@ -1090,39 +1010,40 @@ use PHPMailer\PHPMailer\Exception;
                         <!-- Contact Box -->
                         <div class="contact-box text-center">
                             <!-- Contact Form -->
-                            <form id="contact-form"  method="post">
+                            <form  method="POST">
 
-                            <?php
-                                if(isset($_POST['submit'])){
-                                    $name = $_POST['name'];
-                                    $subject = $_POST['subject'];
-                                    $mailFrom = $_POST['mail'];
-                                    $message = $_POST['message'];
-                            
-                                }
-                                // Create instance of PHPMailer
-                                $mail = new PHPMailer();
-                                // Set mailer to use SMTP
-                                $mail->isSMTP;
-                                // define smtp host
-                                $mail->Host = "mail.wetindeycodeacademy.com.ng";
-                                // enable smtp authentication
-                                $mail->SMTPAuth="true";
-                                // set smtp encryption type
-                                $mail->SMTPSecure="tls";
-                                $mail->Port="587";
-                                $mail->Username= "unixpsupport@wetindeycodeacademy.com.ng";
-                                $mail->Password = "unixp001$";
-                                $mail->Subject ="$subject";
-                                $mail->setFrom('unixpsupport@wetindeycodeacademy.com.ng');
-                                $mail->isHTML(true);
-                                $mail->Body = "Hi '$name,' '$subject' '$message'";
-                                $mail->addAddress("unixpsupport@wetindeycodeacademy.com.ng");
-                                if ($mail->send()){
-                                  echo "<script>alert('Dear $name, you have succesfully sent your feedback, we wil get back to you!')</script>";
-                                }
-                            ?>
-                                <div class="row">
+                                <?php
+                                    if(isset($_REQUEST['submit'])){
+                                        $name = $_REQUEST['name'];
+                                        $subject = $_REQUEST['subject'];
+                                        $mailFrom = $_REQUEST['mail'];
+                                        $message = $_REQUEST['message'];
+
+                                    // Create instance of PHPMailer
+                                    $mail = new PHPMailer();
+                                    // Set mailer to use SMTP
+                                    $mail->isSMTP();
+                                    // define smtp host
+                                    $mail->Host = "mail.wetindeycodeacademy.com.ng";
+                                    // enable smtp authentication
+                                    $mail->SMTPAuth="true";
+                                    // set smtp encryption type
+                                    $mail->SMTPSecure="tls";
+                                    $mail->Port="587";
+                                    $mail->Username= "unixpadmin@wetindeycodeacademy.com.ng";
+                                    $mail->Password = "unixpadmin";
+                                    $mail->Subject ="Feedback from $name";
+                                    $mail->setFrom('unixpadmin@wetindeycodeacademy.com.ng');
+                                    $mail->isHTML(true);
+                                    $mail->Body = "'New feedback from ' $name <p><b>'$subject'</b></p> <p>'$message'</p>";
+                                    $mail->addAddress("unixpadmin@wetindeycodeacademy.com.ng");
+                                    if ($mail->send()){
+                                      echo "<script>alert('Dear $name, you have succesfully sent your feedback, we wil get back to you!')
+                                      location.href='index.php'</script>";
+                                    }
+                                    }
+                                ?>
+                          <div class="row">
                                     <div class="col-12">
                                         <div class="form-group">
                                             <input type="text" class="form-control" name="name" placeholder="Name" required="required">
@@ -1144,7 +1065,7 @@ use PHPMailer\PHPMailer\Exception;
                                     </div>
                                 </div>
                             </form>
-                            <p class="form-message"></p>
+                            
                         </div>
                     </div>
                 </div>
@@ -1166,28 +1087,28 @@ use PHPMailer\PHPMailer\Exception;
                             <!-- Footer Items -->
                             <div class="footer-items">
                                 <!-- Logo -->
-                                <a class="navbar-brand" href="#">
+                                <a class="navbar-brand" href="https://www.wetindeycodeacademy.com.ng/hck3rr/UniXP">
                                     <img class="logo" src="assets/img/logo/unixp-logo.png" alt="">
                                 </a>
-                                <p class="mt-2 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis non, fugit totam vel laboriosam vitae.</p>
+                                <p class="mt-2 mb-3">Helping Students Connect...</p>
                                 <!-- Social Icons -->
                                 <div class="social-icons d-flex">
-                                    <a class="facebook" href="#">
-                                        <i class="fab fa-github"></i>
-                                        <i class="fab fa-github"></i>
+                                    <a class="vine" href="https://www.instagram.com/_unixp/">
+                                        <i class="fab fa-instagram"></i>
+                                        <i class="fab fa-instagram"></i>
                                     </a>
-                                    <a class="twitter" href="#">
+                                    <a class="twitter" href="https://www.twitter.com/_unixp/">
                                         <i class="fab fa-twitter"></i>
                                         <i class="fab fa-twitter"></i>
                                     </a>
-                                    <a class="google-plus" href="#">
-                                        <i class="fab fa-google-plus-g"></i>
-                                        <i class="fab fa-google-plus-g"></i>
+                                    <a class="facebook" href="https://web.facebook.com/Unixp-104291298781397">
+                                        <i class="fab fa-facebook"></i>
+                                        <i class="fab fa-facebook"></i>
                                     </a>
-                                    <a class="vine" href="#">
+                                    <!-- <a class="vine" href="#">
                                         <i class="fab fa-vine"></i>
                                         <i class="fab fa-vine"></i>
-                                    </a>
+                                    </a> -->
                                 </div>
                             </div>
                         </div>
@@ -1199,8 +1120,8 @@ use PHPMailer\PHPMailer\Exception;
                                 <ul>
                                     <li class="py-2"><a href="#">Home</a></li>
                                     <li class="py-2"><a href="#">About Us</a></li>
-                                    <li class="py-2"><a href="#">Services</a></li>
-                                    <li class="py-2"><a href="#">Contact</a></li>
+                                    <li class="py-2"><a href="#features">Services</a></li>
+                                    <li class="py-2"><a href="#contact">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1210,11 +1131,11 @@ use PHPMailer\PHPMailer\Exception;
                                 <!-- Footer Title -->
                                 <h3 class="footer-title mb-2">Product Help</h3>
                                 <ul>
-                                    <li class="py-2"><a href="#">FAQ</a></li>
+                                    <li class="py-2"><a href="#faq">FAQ</a></li>
                                     <li class="py-2"><a href="#">Privacy Policy</a></li>
-                                    <li class="py-2"><a href="#">Support</a></li>
+                                    <li class="py-2"><a href="#contact">Support</a></li>
                                     <li class="py-2"><a href="#">Terms &amp; Conditions</a></li>
-                                    <li class="py-2"><a href="#">Contact</a></li>
+                                    <li class="py-2"><a href="#contact">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
