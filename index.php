@@ -1090,7 +1090,38 @@ use PHPMailer\PHPMailer\Exception;
                         <!-- Contact Box -->
                         <div class="contact-box text-center">
                             <!-- Contact Form -->
-                            <form id="contact-form"action="contactform.php" method="post">
+                            <form id="contact-form"  method="post">
+
+                            <?php
+                                if(isset($_POST['submit'])){
+                                    $name = $_POST['name'];
+                                    $subject = $_POST['subject'];
+                                    $mailFrom = $_POST['mail'];
+                                    $message = $_POST['message'];
+                            
+                                }
+                                // Create instance of PHPMailer
+                                $mail = new PHPMailer();
+                                // Set mailer to use SMTP
+                                $mail->isSMTP;
+                                // define smtp host
+                                $mail->Host = "mail.wetindeycodeacademy.com.ng";
+                                // enable smtp authentication
+                                $mail->SMTPAuth="true";
+                                // set smtp encryption type
+                                $mail->SMTPSecure="tls";
+                                $mail->Port="587";
+                                $mail->Username= "unixpsupport@wetindeycodeacademy.com.ng";
+                                $mail->Password = "unixp001$";
+                                $mail->Subject ="$subject";
+                                $mail->setFrom('unixpsupport@wetindeycodeacademy.com.ng');
+                                $mail->isHTML(true);
+                                $mail->Body = "Hi '$name,' '$subject' '$message'";
+                                $mail->addAddress("unixpsupport@wetindeycodeacademy.com.ng");
+                                if ($mail->send()){
+                                  echo "<script>alert('Dear $name, you have succesfully sent your feedback, we wil get back to you!')</script>";
+                                }
+                            ?>
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="form-group">
