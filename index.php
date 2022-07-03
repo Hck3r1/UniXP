@@ -932,11 +932,69 @@ use PHPMailer\PHPMailer\Exception;
                             <h2>Subscribe to get updates from UniXP</h2>
                             <p class="my-4">By subscribing you will get newsleter, promotions from UniXP</p>
                             <!-- Subscribe Form -->
-                            <form class="subscribe-form">
+                            <form class="subscribe-form" method="POST">
+                            <?php
+                                $rand = (rand(1000,9999));
+                                $today = date("my");
+                                $id = "unixp/".$today."/".$rand;
+                                include('db.php');
+                                error_reporting(E_ALL);
+                                if(isset($_REQUEST['subscribe'])){
+                                        $subscriptionmail = $_REQUEST['subscriptionmail'];
+                                        $uin = $_REQUEST["uin"];
+
+                                        $check = mysqli_query($conn, "SELECT * FROM newsletter WHERE subscriptionmail='$subscriptionmail'");
+                                        $checkrows = mysqli_num_rows($check);
+                                        if($checkrows > 0){
+                                          echo "<script>alert('This email is already subscribed to UniXP`s newsletter!')
+                                          location.href='#contact'</script>";
+                                        }
+                                        else{
+                                            $sql="INSERT INTO newsletter (subscriptionmail, uin) VALUES('$subscriptionmail','$uin')";
+
+                    mysqli_query($conn, $sql) or die(mysqli_error($conn));
+                    $num = mysqli_insert_id($conn);
+                    if (mysqli_affected_rows($conn) !=1){
+                      $message = "Error inserting into database";
+                    }
+                    // echo "<script>alert('You have succesfully subscribed to UniXP`s newsletter with the email address: $subscriptionmail. Stay Tuned for our updates!')
+                    // location.href='#contact'</script>";
+                    // Create instance of PHPMailer
+                    $mail = new PHPMailer();
+                    // Set mailer to use SMTP
+                    $mail->isSMTP();
+                    // define smtp host
+                    $mail->Host = "mail.wetindeycodeacademy.com.ng";
+                    // enable smtp authentication
+                    $mail->SMTPAuth=true;
+                    // set smtp encryption type
+                    $mail->SMTPSecure="tls";
+                    $mail->Port="587";
+                    $mail->Username= "unixpadmin@wetindeycodeacademy.com.ng";
+                    $mail->Password = "unixpadmin";
+                    $mail->Subject ="You have succesfully subscribed to UniXP's newsletter";
+                    $mail->setFrom('unixpadmin@wetindeycodeacademy.com.ng','Feranmi from UniXP',false);
+                    $mail->isHTML(true);
+                    $mail->Body = "This is a confirmation email for $subscriptionmail<br> If you got this, you have successfully subscribed to UniXP`s newsletter";
+                    $mail->addAddress($subscriptionmail);
+                    if ($mail->send()){
+                      echo "<script>alert('You have succesfully subscribed to UniXP`s newsletter with the email address: $subscriptionmail. Stay Tuned for our updates!')
+                      location.href='#contact'</script>";
+                    }
+                    }
+                  
+                  }
+                                       
+                                    
+                            ?>
                                 <div class="form-group">
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
+                                    <input type="hidden" name="uin" class="form-control" id="exampleInputEmail1" value="<?php echo $id ?>" >
                                 </div>
-                                <button type="subscribe" class="btn btn-lg btn-block">Subscribe</button>
+                                <div class="form-group">
+                                    <input type="email" name="subscriptionmail" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
+                                </div>
+                                
+                                <button type="submit" name="subscribe" class="btn btn-lg btn-block">Subscribe</button>
                             </form>
                         </div>
                     </div>
@@ -1017,7 +1075,7 @@ use PHPMailer\PHPMailer\Exception;
                                         $name = $_REQUEST['name'];
                                         $subject = $_REQUEST['subject'];
                                         $mailFrom = $_REQUEST['mail'];
-                                        $message = $_REQUEST['message'];
+                                        $feedback = $_REQUEST['feedback'];
 
                                     // Create instance of PHPMailer
                                     $mail = new PHPMailer();
@@ -1035,7 +1093,7 @@ use PHPMailer\PHPMailer\Exception;
                                     $mail->Subject ="Feedback from $name";
                                     $mail->setFrom('unixpadmin@wetindeycodeacademy.com.ng');
                                     $mail->isHTML(true);
-                                    $mail->Body = "'New feedback from ' $name <p><b>'$subject'</b></p> <p>'$message'</p>";
+                                    $mail->Body = "'New feedback from ' $name <p><b>'$subject'</b></p> <p>'$feedback'</p>";
                                     $mail->addAddress("unixpadmin@wetindeycodeacademy.com.ng");
                                     if ($mail->send()){
                                       echo "<script>alert('Dear $name, you have succesfully sent your feedback, we wil get back to you!')
