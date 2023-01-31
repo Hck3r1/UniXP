@@ -261,38 +261,38 @@ use PHPMailer\PHPMailer\Exception;
                                         <span><i class="fab fa-buffer"></i></span>
                                     </div>
                                     <div class="service-text media-body">
-                                        <p>Fully layered dolor sit amet, consectetur adipisicing elit. Facere, nobis, id expedita dolores officiis laboriosam.</p>
+                                        <p>Easy access to basic  services</p>
                                     </div>
                                 </li>
                                 <!-- Single Service -->
                                 <li class="single-service media py-2">
                                     <div class="service-icon pr-4">
-                                        <span><i class="fas fa-brush"></i></span>
+                                        <span><i class="fas fa-map"></i></span>
                                     </div>
                                     <div class="service-text media-body">
-                                        <p>Customizable design dolor sit amet, consectetur adipisicing elit. Facere, nobis, id expedita dolores officiis laboriosam.</p>
+                                        <p>School Map</p>
                                     </div>
                                 </li>
                                 <!-- Single Service -->
                                 <li class="single-service media py-2">
                                     <div class="service-icon pr-4">
-                                        <span><i class="fas fa-burn"></i></span>
+                                        <span><i class="fas fa-smile"></i></span>
                                     </div>
                                     <div class="service-text media-body">
-                                        <p>Drop ipsum dolor sit amet, consectetur adipisicing elit. Facere, nobis, id expedita dolores officiis laboriosam.</p>
+                                        <p>Connect students together.</p>
                                     </div>
                                 </li>
                                 <!-- Single Service -->
                                 <li class="single-service media py-2">
                                     <div class="service-icon pr-4">
-                                        <span><i class="fas fa-cart-arrow-down"></i></span>
+                                        <span><i class="fas fa-info-circle"></i></span>
                                     </div>
                                     <div class="service-text media-body">
-                                        <p>Marketing chart dolor sit amet, consectetur adipisicing elit. Facere, nobis, id expedita dolores officiis laboriosam.</p>
+                                        <p>News Feed</p>
                                     </div>
                                 </li>
                             </ul>
-                            <a href="#" class="btn btn-bordered mt-4">Learn More</a>
+                            <!-- <a href="#" class="btn btn-bordered mt-4">Learn More</a> -->
                         </div>
                     </div>
                     <div class="col-12 col-lg-4 order-1 order-lg-2 d-none d-lg-block">
@@ -319,36 +319,57 @@ use PHPMailer\PHPMailer\Exception;
                     <div class="col-12 col-lg-6 order-1 order-lg-2">
                         <!-- Discover Text -->
                         <div class="discover-text pt-4 pt-lg-0">
-                            <h2 class="pb-4 pb-sm-0">Easily connect with students around you using UniXP.</h2>
-                            <p class="d-none d-sm-block pt-3 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique dolor ut iusto vitae autem neque eum ipsam.</p>
+                            <h2 class="pb-4 pb-sm-0">Feature List</h2>
+                            <p class="d-none d-sm-block pt-3 pb-4">Below are the features UniXP has to offer students;</p>
                             <!-- Check List -->
                             <ul class="check-list">
                                 <li class="py-1">
                                     <!-- List Box -->
                                     <div class="list-box media">
                                         <span class="icon align-self-center"><i class="fas fa-check"></i></span>
-                                        <span class="media-body pl-3">Combined with a handful of model sentence structures looks reasonable.</span>
+                                        <span class="media-body pl-3">News Feed</span>
                                     </div>
                                 </li>
                                 <li class="py-1">
                                     <!-- List Box -->
                                     <div class="list-box media">
                                         <span class="icon align-self-center"><i class="fas fa-check"></i></span>
-                                        <span class="media-body pl-3">Contrary to popular belief, Lorem Ipsum is not simply random text.</span>
+                                        <span class="media-body pl-3">Connect Rooms</span>
                                     </div>
                                 </li>
                                 <li class="py-1">
                                     <!-- List Box -->
                                     <div class="list-box media">
                                         <span class="icon align-self-center"><i class="fas fa-check"></i></span>
-                                        <span class="media-body pl-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</span>
+                                        <span class="media-body pl-3">Hot Spots</span>
                                     </div>
                                 </li>
                                 <li class="py-1">
                                     <!-- List Box -->
                                     <div class="list-box media">
                                         <span class="icon align-self-center"><i class="fas fa-check"></i></span>
-                                        <span class="media-body pl-3">All the Lorem Ipsum generators on the Internet tend to repeat necessary.</span>
+                                        <span class="media-body pl-3">Maps</span>
+                                    </div>
+                                </li>
+                                <li class="py-1">
+                                    <!-- List Box -->
+                                    <div class="list-box media">
+                                        <span class="icon align-self-center"><i class="fas fa-check"></i></span>
+                                        <span class="media-body pl-3">To-Do List</span>
+                                    </div>
+                                </li>
+                                <li class="py-1">
+                                    <!-- List Box -->
+                                    <div class="list-box media">
+                                        <span class="icon align-self-center"><i class="fas fa-check"></i></span>
+                                        <span class="media-body pl-3">Events</span>
+                                    </div>
+                                </li>
+                                <li class="py-1">
+                                    <!-- List Box -->
+                                    <div class="list-box media">
+                                        <span class="icon align-self-center"><i class="fas fa-check"></i></span>
+                                        <span class="media-body pl-3">User Profile</span>
                                     </div>
                                 </li>
                             </ul>
@@ -439,8 +460,8 @@ use PHPMailer\PHPMailer\Exception;
                                 Interface
                             </span>
                             <h2 class="text-capitalize">Simple &amp; Beautiful Interface</h2>
-                            <p class="d-none d-sm-block mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati dignissimos quae quo ad iste ipsum officiis deleniti asperiores sit.</p>
-                            <p class="d-block d-sm-none mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati.</p>
+                            <!-- <p class="d-none d-sm-block mt-4"></p>
+                            <p class="d-block d-sm-none mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati.</p> -->
                         </div>
                     </div>
                 </div>
@@ -488,8 +509,8 @@ use PHPMailer\PHPMailer\Exception;
                                 Reviews
                             </span>
                             <h2 class="text-capitalize">What our customers are saying</h2>
-                            <p class="d-none d-sm-block mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati dignissimos quae quo ad iste ipsum officiis deleniti asperiores sit.</p>
-                            <p class="d-block d-sm-none mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati.</p>
+                            <!-- <p class="d-none d-sm-block mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati dignissimos quae quo ad iste ipsum officiis deleniti asperiores sit.</p>
+                            <p class="d-block d-sm-none mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati.</p> -->
                         </div>
                     </div>
                 </div>
@@ -756,7 +777,7 @@ use PHPMailer\PHPMailer\Exception;
                         <div class="single-team text-center overflow-hidden m-2 m-lg-0">
                             <!-- Team Thumb -->
                             <div class="team-thumb d-inline-block position-relative overflow-hidden">
-                                <img src="assets/img/avatar/joshua.jpg" alt="">
+                                <img src="assets/img/avatar/joshua.png" alt="">
                                 <!-- Team Overlay -->
                                 <div class="team-overlay">
                                     <h4 class="team-name text-white">Fatoke Joshua</h4>
@@ -776,16 +797,16 @@ use PHPMailer\PHPMailer\Exception;
                         <div class="single-team text-center overflow-hidden m-2 m-lg-0">
                             <!-- Team Thumb -->
                             <div class="team-thumb d-inline-block position-relative overflow-hidden">
-                                <img src="assets/img/avatar/flex.jpg" alt="">
+                                <img src="assets/img/avatar/flex.png" alt="">
                                 <!-- Team Overlay -->
                                 <div class="team-overlay">
                                     <h4 class="team-name text-white">Dunmade Oluwatunmise</h4>
-                                    <h6 class="team-post text-white mt-2 mb-3">Co-Founder &amp; Front-end Developer</h6>
+                                    <h6 class="team-post text-white mt-2 mb-3">Co-Founder &amp; Mobile Developer</h6>
                                     <!-- Team Icons -->
                                     <div class="team-icons">
-                                        <a class="p-2" href="#" target="_blank"><i class="fab fa-github"></i></a>
-                                        <a class="p-2" href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-                                        <a class="p-2" href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                        <a class="p-2" href="https://github.com/CodingFlex" target="_blank"><i class="fab fa-github"></i></a>
+                                        <a class="p-2" href="https://twitter.com/Flex__Off" target="_blank"><i class="fab fa-twitter"></i></a>
+                                        <a class="p-2" href="https://www.linkedin.com/in/oluwatunmisedunmade/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -796,7 +817,7 @@ use PHPMailer\PHPMailer\Exception;
                         <div class="single-team text-center overflow-hidden m-2 m-lg-0">
                             <!-- Team Thumb -->
                             <div class="team-thumb d-inline-block position-relative overflow-hidden">
-                                <img src="assets/img/avatar/feranmi.jpg" alt="">
+                                <img src="assets/img/avatar/feranmi.png" alt="">
                                 <!-- Team Overlay -->
                                 <div class="team-overlay">
                                     <h4 class="team-name text-white">Idima Oluwaferanmi</h4>
@@ -804,7 +825,7 @@ use PHPMailer\PHPMailer\Exception;
                                     <!-- Team Icons -->
                                     <div class="team-icons">
                                         <a class="p-2" href="https://github.com/Hck3r1" target="_blank"><i class="fab fa-github"></i></a>
-                                        <a class="p-2" href="https://twitter.com/_hck3rrr" target="_blank"><i class="fab fa-twitter"></i></a>
+                                        <a class="p-2" href="https://twitter.com/0xhckrrr" target="_blank"><i class="fab fa-twitter"></i></a>
                                         <a class="p-2" href="https://www.linkedin.com/in/oluwaferanmi-idima-3967951b2/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                                     </div>
                                 </div>
@@ -816,7 +837,7 @@ use PHPMailer\PHPMailer\Exception;
                         <div class="single-team text-center overflow-hidden m-2 m-lg-0">
                             <!-- Team Thumb -->
                             <div class="team-thumb d-inline-block position-relative overflow-hidden">
-                                <img src="assets/img/avatar/nifemi.jpg" alt="">
+                                <img src="assets/img/avatar/nifemi.png" alt="">
                                 <!-- Team Overlay -->
                                 <div class="team-overlay">
                                     <h4 class="team-name text-white">Adegoke Oluwanifemi</h4>
@@ -836,16 +857,16 @@ use PHPMailer\PHPMailer\Exception;
                         <div class="single-team text-center overflow-hidden m-2 m-lg-0">
                             <!-- Team Thumb -->
                             <div class="team-thumb d-inline-block position-relative overflow-hidden">
-                                <img src="assets/img/avatar/feranmi.jpg" alt="">
+                                <img src="assets/img/avatar/seun.png" alt="">
                                 <!-- Team Overlay -->
                                 <div class="team-overlay">
-                                    <h4 class="team-name text-white">Idima Oluwaferanmi</h4>
-                                    <h6 class="team-post text-white mt-2 mb-3">Co-Founder &amp;Web Developer</h6>
+                                    <h4 class="team-name text-white">Seun Oyerinde</h4>
+                                    <h6 class="team-post text-white mt-2 mb-3">Brand Designer</h6>
                                     <!-- Team Icons -->
                                     <div class="team-icons">
-                                        <a class="p-2" href="#" target="_blank"><i class="fab fa-github"></i></a>
-                                        <a class="p-2" href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-                                        <a class="p-2" href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                        <a class="p-2" href="https://www.behance.net/oluwaseunoyerinde" target="_blank"><i class="fab fa-behance"></i></a>
+                                        <a class="p-2" href="https://twitter.com/psypops_killshot" target="_blank"><i class="fab fa-twitter"></i></a>
+                                        <a class="p-2" href="https://www.linkedin.com/in/oluwaseunoyerinde/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -856,16 +877,16 @@ use PHPMailer\PHPMailer\Exception;
                         <div class="single-team text-center overflow-hidden m-2 m-lg-0">
                             <!-- Team Thumb -->
                             <div class="team-thumb d-inline-block position-relative overflow-hidden">
-                                <img src="assets/img/avatar/feranmi.jpg" alt="">
+                                <img src="assets/img/avatar/dolapo.png" alt="">
                                 <!-- Team Overlay -->
                                 <div class="team-overlay">
-                                    <h4 class="team-name text-white">Idima Oluwaferanmi</h4>
-                                    <h6 class="team-post text-white mt-2 mb-3">Co-Founder &amp;Web Developer</h6>
+                                    <h4 class="team-name text-white">Falana Dolapo</h4>
+                                    <h6 class="team-post text-white mt-2 mb-3">Mobile Developer</h6>
                                     <!-- Team Icons -->
                                     <div class="team-icons">
-                                        <a class="p-2" href="#" target="_blank"><i class="fab fa-github"></i></a>
-                                        <a class="p-2" href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-                                        <a class="p-2" href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                        <a class="p-2" href="https://github.com/Dolappo" target="_blank"><i class="fab fa-github"></i></a>
+                                        <a class="p-2" href="https://twitter.com/dolappo" target="_blank"><i class="fab fa-twitter"></i></a>
+                                        <a class="p-2" href="https://www.linkedin.com/in/dolapo-falana-210725210/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -876,16 +897,36 @@ use PHPMailer\PHPMailer\Exception;
                         <div class="single-team text-center overflow-hidden m-2 m-lg-0">
                             <!-- Team Thumb -->
                             <div class="team-thumb d-inline-block position-relative overflow-hidden">
-                                <img src="assets/img/avatar/avatar-4.png" alt="">
+                                <img src="assets/img/avatar/praise.png" alt="">
                                 <!-- Team Overlay -->
                                 <div class="team-overlay">
-                                    <h4 class="team-name text-white">Yasmin Akter</h4>
-                                    <h6 class="team-post text-white mt-2 mb-3">Graphic Designer</h6>
+                                    <h4 class="team-name text-white">Afuwape Praise</h4>
+                                    <h6 class="team-post text-white mt-2 mb-3">Mobile Developer</h6>
+                                    <!-- Team Icons -->
+                                    <div class="team-icons">
+                                        <a class="p-2" href="https://github.com/Praise650" target="_blank"><i class="fab fa-github"></i></a>
+                                        <a class="p-2" href="https://twitter.com/afuwape_praise" target="_blank"><i class="fab fa-twitter"></i></a>
+                                        <a class="p-2" href="https://www.linkedin.com/in/praise-afuwape-a47a95214/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <!-- Single Team -->
+                        <div class="single-team text-center overflow-hidden m-2 m-lg-0">
+                            <!-- Team Thumb -->
+                            <div class="team-thumb d-inline-block position-relative overflow-hidden">
+                                <img src="assets/img/avatar/daniel.png" alt="">
+                                <!-- Team Overlay -->
+                                <div class="team-overlay">
+                                    <h4 class="team-name text-white">Olaide Daniel</h4>
+                                    <h6 class="team-post text-white mt-2 mb-3">Back-end Developer</h6>
                                     <!-- Team Icons -->
                                     <div class="team-icons">
                                         <a class="p-2" href="#" target="_blank"><i class="fab fa-github"></i></a>
                                         <a class="p-2" href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-                                        <a class="p-2" href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                        <a class="p-2" href="https://www.linkedin.com/in/daniel-olaide-49799b16b/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -905,7 +946,7 @@ use PHPMailer\PHPMailer\Exception;
                         <div class="download-text text-center">
                             <h2 class="text-white">UniXP is available for all devices</h2>
                             <p class="text-white my-3 d-none d-sm-block">UniXP is available for all devices, visit your App store to download and start enjoying our features. Now!!!</p>
-                            <p class="text-white my-3 d-block d-sm-none">UniXP is available for all devices, consectetur adipisicing elit. Vel neque, cumque. Temporibus eligendi veniam, necessitatibus aut id labore nisi quisquam.</p>
+                            <!-- <p class="text-white my-3 d-block d-sm-none">UniXP is available for all devices, consectetur adipisicing elit. Vel neque, cumque. Temporibus eligendi veniam, necessitatibus aut id labore nisi quisquam.</p> -->
                             <!-- Store Buttons -->
                             <div class="button-group store-buttons d-flex justify-content-center">
                                 <a href="#">
@@ -971,7 +1012,7 @@ use PHPMailer\PHPMailer\Exception;
                     $mail->SMTPSecure="tls";
                     $mail->Port="587";
                     $mail->Username= "unixpadmin@wetindeycodeacademy.com.ng";
-                    $mail->Password = "unixpadmin";
+                    $mail->Password = "unixp001$";
                     $mail->Subject ="You have succesfully subscribed to UniXP's newsletter";
                     $mail->setFrom('unixpadmin@wetindeycodeacademy.com.ng','Feranmi from UniXP',false);
                     $mail->isHTML(true);
@@ -1022,23 +1063,23 @@ use PHPMailer\PHPMailer\Exception;
                             <p class="mb-3">You can reach out to UniXP via the following means</p>
                             <ul>
                                 <li class="py-2">
-                                    <a class="media" href="#">
+                                    <a class="media" target="_blank" href="#">
                                         <div class="social-icon mr-3">
                                             <i class="fas fa-home"></i>
                                         </div>
-                                        <span class="media-body align-self-center">Vestibulum nulla libero, convallis, tincidunt suscipit diam, DC 2002</span>
+                                        <span class="media-body align-self-center">Federal University of Tehnology, Akure</span>
                                     </a>
                                 </li>
                                 <li class="py-2">
-                                    <a class="media" href="#">
+                                    <a class="media" href="tel:+234 703 834 6898">
                                         <div class="social-icon mr-3">
                                             <i class="fas fa-phone-alt"></i>
                                         </div>
-                                        <span class="media-body align-self-center">+1 230 456 789-012 345 6789</span>
+                                        <span class="media-body align-self-center">+234 703 834 6898</span>
                                     </a>
                                 </li>
                                 <li class="py-2">
-                                    <a class="media" href="https://www.instagram.com/_unixp/">
+                                    <a class="media" target="_blank" href="https://www.instagram.com/_unixp/">
                                         <div class="social-icon mr-3">
                                             <i class="fab fa-instagram"></i>
                                         </div>
@@ -1046,7 +1087,7 @@ use PHPMailer\PHPMailer\Exception;
                                     </a>
                                 </li>
                                 <li class="py-2">
-                                    <a class="media" href="https://www.twitter.com/_unixp/">
+                                    <a class="media" target="_blank" href="https://www.twitter.com/_unixp/">
                                         <div class="social-icon mr-3">
                                             <i class="fab fa-twitter"></i>
                                         </div>
@@ -1089,7 +1130,7 @@ use PHPMailer\PHPMailer\Exception;
                                     $mail->SMTPSecure="tls";
                                     $mail->Port="587";
                                     $mail->Username= "unixpadmin@wetindeycodeacademy.com.ng";
-                                    $mail->Password = "unixpadmin";
+                                    $mail->Password = "unixp001$";
                                     $mail->Subject ="Feedback from $name";
                                     $mail->setFrom('unixpadmin@wetindeycodeacademy.com.ng');
                                     $mail->isHTML(true);
@@ -1176,8 +1217,8 @@ use PHPMailer\PHPMailer\Exception;
                                 <!-- Footer Title -->
                                 <h3 class="footer-title mb-2">Useful Links</h3>
                                 <ul>
-                                    <li class="py-2"><a href="#">Home</a></li>
-                                    <li class="py-2"><a href="#">About Us</a></li>
+                                    <li class="py-2"><a href="#home">Home</a></li>
+                                    <li class="py-2"><a href="#team">About Us</a></li>
                                     <li class="py-2"><a href="#features">Services</a></li>
                                     <li class="py-2"><a href="#contact">Contact</a></li>
                                 </ul>
