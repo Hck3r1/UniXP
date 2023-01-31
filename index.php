@@ -1005,16 +1005,16 @@ use PHPMailer\PHPMailer\Exception;
                     // Set mailer to use SMTP
                     $mail->isSMTP();
                     // define smtp host
-                    $mail->Host = "mail.wetindeycodeacademy.com.ng";
+                    $mail->Host = "";
                     // enable smtp authentication
                     $mail->SMTPAuth=true;
                     // set smtp encryption type
                     $mail->SMTPSecure="tls";
                     $mail->Port="587";
-                    $mail->Username= "unixpadmin@wetindeycodeacademy.com.ng";
-                    $mail->Password = "unixp001$";
+                    $mail->Username= "";
+                    $mail->Password = "unixpadmin";
                     $mail->Subject ="You have succesfully subscribed to UniXP's newsletter";
-                    $mail->setFrom('unixpadmin@wetindeycodeacademy.com.ng','Feranmi from UniXP',false);
+                    $mail->setFrom('','Feranmi from UniXP',false);
                     $mail->isHTML(true);
                     $mail->Body = "This is a confirmation email for $subscriptionmail<br> If you got this, you have successfully subscribed to UniXP`s newsletter";
                     $mail->addAddress($subscriptionmail);
@@ -1123,19 +1123,19 @@ use PHPMailer\PHPMailer\Exception;
                                     // Set mailer to use SMTP
                                     $mail->isSMTP();
                                     // define smtp host
-                                    $mail->Host = "mail.wetindeycodeacademy.com.ng";
+                                    $mail->Host = "";
                                     // enable smtp authentication
                                     $mail->SMTPAuth="true";
                                     // set smtp encryption type
                                     $mail->SMTPSecure="tls";
                                     $mail->Port="587";
-                                    $mail->Username= "unixpadmin@wetindeycodeacademy.com.ng";
-                                    $mail->Password = "unixp001$";
+                                    $mail->Username= "";
+                                    $mail->Password = "";
                                     $mail->Subject ="Feedback from $name";
-                                    $mail->setFrom('unixpadmin@wetindeycodeacademy.com.ng');
+                                    $mail->setFrom('');
                                     $mail->isHTML(true);
                                     $mail->Body = "'New feedback from ' $name <p><b>'$subject'</b></p> <p>'$feedback'</p>";
-                                    $mail->addAddress("unixpadmin@wetindeycodeacademy.com.ng");
+                                    $mail->addAddress("");
                                     if ($mail->send()){
                                       echo "<script>alert('Dear $name, you have succesfully sent your feedback, we wil get back to you!')
                                       location.href='index.php'</script>";
