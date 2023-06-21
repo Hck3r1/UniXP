@@ -1,0 +1,38 @@
+[27-May-2023 11:18:34 UTC] PHP Warning:  Undefined variable $conn in /home/unixpng/public_html/blog/process_post.php on line 15
+[27-May-2023 11:18:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/unixpng/public_html/blog/process_post.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/unixpng/public_html/blog/process_post.php on line 15
+[27-May-2023 11:19:48 UTC] PHP Warning:  include(db.php): Failed to open stream: No such file or directory in /home/unixpng/public_html/blog/process_post.php on line 2
+[27-May-2023 11:19:48 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/unixpng/public_html/blog/process_post.php on line 2
+[27-May-2023 11:19:48 UTC] PHP Warning:  Undefined variable $conn in /home/unixpng/public_html/blog/process_post.php on line 16
+[27-May-2023 11:19:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/unixpng/public_html/blog/process_post.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/unixpng/public_html/blog/process_post.php on line 16
+[27-May-2023 11:20:52 UTC] PHP Warning:  require_once(db.php): Failed to open stream: No such file or directory in /home/unixpng/public_html/blog/process_post.php on line 2
+[27-May-2023 11:20:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'db.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/unixpng/public_html/blog/process_post.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/unixpng/public_html/blog/process_post.php on line 2
+[27-May-2023 11:21:14 UTC] PHP Warning:  require_once(db.php): Failed to open stream: No such file or directory in /home/unixpng/public_html/blog/process_post.php on line 2
+[27-May-2023 11:21:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'db.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/unixpng/public_html/blog/process_post.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/unixpng/public_html/blog/process_post.php on line 2
+[27-May-2023 11:24:33 UTC] PHP Warning:  require_once(db.php): Failed to open stream: No such file or directory in /home/unixpng/public_html/blog/process_post.php on line 2
+[27-May-2023 11:24:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'db.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/unixpng/public_html/blog/process_post.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/unixpng/public_html/blog/process_post.php on line 2
+[27-May-2023 11:25:23 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /home/unixpng/public_html/blog/process_post.php:24
+Stack trace:
+#0 /home/unixpng/public_html/blog/process_post.php(24): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/unixpng/public_html/blog/process_post.php on line 24
+[27-May-2023 11:28:55 UTC] PHP Parse error:  Unclosed '{' on line 12 in /home/unixpng/public_html/blog/process_post.php on line 51
+[27-May-2023 11:30:12 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in /home/unixpng/public_html/blog/process_post.php:29
+Stack trace:
+#0 /home/unixpng/public_html/blog/process_post.php(29): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/unixpng/public_html/blog/process_post.php on line 29

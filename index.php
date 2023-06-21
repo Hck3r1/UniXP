@@ -43,7 +43,7 @@ use PHPMailer\PHPMailer\Exception;
         <!-- ***** Header Start ***** -->
         <header class="navbar navbar-sticky navbar-expand-lg navbar-dark">
             <div class="container position-relative">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="index.php">
                     <img class="navbar-brand-regular" src="assets/img/logo/unixp-logo-white.png" alt="UniXP-logo">
                     <img class="navbar-brand-sticky" src="assets/img/logo/unixp-logo.png" alt="sticky UniXP-logo">
                 </a>
@@ -62,7 +62,7 @@ use PHPMailer\PHPMailer\Exception;
                             <li class="nav-item">
                                 <a class="nav-link scroll" href="#features">Features</a>
                             </li>
-                            <li class="nav-item dropdown">
+                            <!-- <li class="nav-item dropdown">
                                 
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                    
@@ -71,13 +71,21 @@ use PHPMailer\PHPMailer\Exception;
                                     </li>
                                     
                                 </ul>
-                            </li>
+                            </li> -->
                             <li class="nav-item">
                                 <a class="nav-link scroll" href="#screenshots">Screenshots</a>
                             </li>
                            
                             <li class="nav-item">
                                 <a class="nav-link scroll" href="#contact">Contact</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.unixp.ng/blog/index.php">Blog</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.unixp.ng/waitlist/index.php">Waitlist</a>
                             </li>
                         </ul>
                     </nav>
@@ -1010,9 +1018,9 @@ use PHPMailer\PHPMailer\Exception;
                     $mail->SMTPAuth=true;
                     // set smtp encryption type
                     $mail->SMTPSecure="tls";
-                    $mail->Port="587";
-                    $mail->Username= "";
-                    $mail->Password = "unixpadmin";
+                    $mail->Port="465";
+                    $mail->Username= "support@unixp.ng";
+                    $mail->Password = "UniXP123>>";
                     $mail->Subject ="You have succesfully subscribed to UniXP's newsletter";
                     $mail->setFrom('','Feranmi from UniXP',false);
                     $mail->isHTML(true);
@@ -1095,11 +1103,11 @@ use PHPMailer\PHPMailer\Exception;
                                     </a>
                                 </li>
                                 <li class="py-2">
-                                    <a class="media" href="mailTo: unixpadmin@wetindeycodeacademy.com.ng">
+                                    <a class="media" href="mailTo: support@unixp.ng">
                                         <div class="social-icon mr-3">
                                             <i class="fas fa-envelope"></i>
                                         </div>
-                                        <span class="media-body align-self-center">unixpadmin@wetindeycodeacademy.com.ng</span>
+                                        <span class="media-body align-self-center">support@unixp.ng</span>
                                     </a>
                                 </li>
                             </ul>
@@ -1123,7 +1131,7 @@ use PHPMailer\PHPMailer\Exception;
                                     // Set mailer to use SMTP
                                     $mail->isSMTP();
                                     // define smtp host
-                                    $mail->Host = "";
+                                    $mail->Host = "mail.unixp.ng";
                                     // enable smtp authentication
                                     $mail->SMTPAuth="true";
                                     // set smtp encryption type
@@ -1186,7 +1194,7 @@ use PHPMailer\PHPMailer\Exception;
                             <!-- Footer Items -->
                             <div class="footer-items">
                                 <!-- Logo -->
-                                <a class="navbar-brand" href="https://www.wetindeycodeacademy.com.ng/hck3rr/UniXP">
+                                <a class="navbar-brand" href="https://www.unixp.ng">
                                     <img class="logo" src="assets/img/logo/unixp-logo.png" alt="">
                                 </a>
                                 <p class="mt-2 mb-3">Helping Students Connect...</p>
