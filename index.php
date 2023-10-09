@@ -1018,9 +1018,9 @@ use PHPMailer\PHPMailer\Exception;
                     $mail->SMTPAuth=true;
                     // set smtp encryption type
                     $mail->SMTPSecure="tls";
-                    $mail->Port="465";
-                    $mail->Username= "support@unixp.ng";
-                    $mail->Password = "UniXP123>>";
+                    $mail->Port="";
+                    $mail->Username= "";
+                    $mail->Password = ">>";
                     $mail->Subject ="You have succesfully subscribed to UniXP's newsletter";
                     $mail->setFrom('','Feranmi from UniXP',false);
                     $mail->isHTML(true);
@@ -1131,12 +1131,12 @@ use PHPMailer\PHPMailer\Exception;
                                     // Set mailer to use SMTP
                                     $mail->isSMTP();
                                     // define smtp host
-                                    $mail->Host = "mail.unixp.ng";
+                                    $mail->Host = "";
                                     // enable smtp authentication
                                     $mail->SMTPAuth="true";
                                     // set smtp encryption type
                                     $mail->SMTPSecure="tls";
-                                    $mail->Port="587";
+                                    $mail->Port="";
                                     $mail->Username= "";
                                     $mail->Password = "";
                                     $mail->Subject ="Feedback from $name";

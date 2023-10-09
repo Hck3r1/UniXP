@@ -50,14 +50,14 @@ use PHPMailer\PHPMailer\Exception;
                     // Set mailer to use SMTP
                     $mail->isSMTP();
                     // define smtp host
-                    $mail->Host = "mail.unixp.ng";
+                    $mail->Host = "";
                     // enable smtp authentication
                     $mail->SMTPAuth=true;
                     // set smtp encryption type
                     $mail->SMTPSecure="ssl";
-                    $mail->Port="465";
-                    $mail->Username= "waitlist@unixp.ng";
-                    $mail->Password = "UniXP123##";
+                    $mail->Port="";
+                    $mail->Username= "";
+                    $mail->Password = "";
                     $mail->Subject ="You have succesfully joined UniXP's Waitlist";
                     $mail->setFrom('waitlist@unixp.ng', 'Feranmi from UniXP');
                     $mail->isHTML(true);

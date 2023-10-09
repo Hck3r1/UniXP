@@ -1,145 +1,38 @@
 <?php
-ini_set('display_errors', '1');
-require 'includes/PHPMailer.php';
-require 'includes/SMTP.php';
-require 'includes/Exception.php';
-//define name spaces
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
-use PHPMailer\PHPMailer\Exception;
+// ini_set('display_errors', '1');
+// require 'includes/PHPMailer.php';
+// require 'includes/SMTP.php';
+// require 'includes/Exception.php';
+// //define name spaces
+// use PHPMailer\PHPMailer\PHPMailer;
+// use PHPMailer\PHPMailer\SMTP;
+// use PHPMailer\PHPMailer\Exception;
 ?>
 
 <?php
-                                if(isset($_REQUEST['submit'])){
-                                    $name = $_REQUEST['name'];
-                                    $subject = $_REQUEST['subject'];
-                                    $email = $_REQUEST['email'];
-                                    $message = $_REQUEST['message'];
-                                    $emailreg = 'unixpadmin@wetindeycodeacademy.com.ng';
-                                
-                              
+    //      $mail = new PHPMailer(true);    
+    //      $mail->isSMTP();
+    //      $mail->Host = 'smtp.gmail.com';
+    //      $mail->SMTPAuth = true;
+    //      $mail->Username = '';
+    //      $mail->Password = '';
+    //      $mail->SMTPSecure = 'tls';
+    //      $mail->Port = 587;
+    //      $mail->setFrom($_POST['email'], $_POST['name']);
+    //      $mail->addAddress('');
+    //      $mail->isHTML(true);
+    //      $mail->Subject = 'Form Submission: '.$_POST['subject'];
+    //      $mail->Body = '<h1 align=center>Name :'.$_POST['name'].'<br>Email: '.$_POST['email'].'<br>Message: '.$_POST['msg'].'</h1>';
+    //      if($mail->send()){
+    //          $status = "success";
+    //          $response = "Email is sent!";
+    //      }
+    //      else
+    //      {
+    //         $status = "failed";
+    //         $response = "Something is wrong: <br><br>" . $mail->ErrorInfo;
+    //      }
+    //      exit(json_encode(array("status" => $status, "response" => $response)));
+    //
 
-
-                                 //Create instance of PHPMailer
-	$mail = new PHPMailer();
-    //Set mailer to use smtp
-        $mail->isSMTP();
-    //Define smtp host
-        $mail->Host = "mail.wetindeycodeacademy.com.ng";
-    //Enable smtp authentication
-        $mail->SMTPAuth = true;
-    //Set smtp encryption type (ssl/tls)
-        $mail->SMTPSecure = "tls";
-    //Port to connect smtp
-        $mail->Port = "587";
-    //Set gmail username
-        $mail->Username= "unixpadmin@wetindeycodeacademy.com.ng";
-    //Set gmail password
-        $mail->Password = "unixpadmin";
-    //Email subject
-        $mail->Subject = "New Feedback";
-    //Set sender email
-        $mail->setFrom('unixpadmin@wetindeycodeacademy.com.ng');
-    //Enable HTML
-        $mail->isHTML(true);
-    //Attachment
-    
-    //Email body
-        $mail->Body = "<style>
-    
-            html,
-            body {
-                margin: 0 auto !important;
-                padding: 0 !important;
-                height: 100% !important;
-                width: 100% !important;
-                font-family: 'Roboto', sans-serif !important;
-                font-size: 14px;
-                margin-bottom: 10px;
-                line-height: 24px;
-                color: #8094ae;
-                font-weight: 400;
-            }
-            * {
-                -ms-text-size-adjust: 100%;
-                -webkit-text-size-adjust: 100%;
-                margin: 0;
-                padding: 0;
-            }
-            table,
-            td {
-                mso-table-lspace: 0pt !important;
-                mso-table-rspace: 0pt !important;
-            }
-            table {
-                border-spacing: 0 !important;
-                border-collapse: collapse !important;
-                table-layout: fixed !important;
-                margin: 0 auto !important;
-            }
-            table table table {
-                table-layout: auto;
-            }
-            a {
-                text-decoration: none;
-            }
-            img {
-                -ms-interpolation-mode:bicubic;
-            }
-        </style>
-    
-        <center style='width: 100%; background-color: #f5f6fa;'>
-        <table width='100%' border='0' cellpadding='0' cellspacing='0' bgcolor='#f5f6fa'>
-            <tr>
-               <td style='padding: 40px 0;'>
-                    <table style='width:100%;max-width:620px;margin:0 auto;'>
-                        <tbody>
-                            <tr>
-                                <td style='text-align: center; padding-bottom:25px'>
-                                    <a href='#'><img style='height: 110px' src='https://www.account.nedahufoundation.org/logo2.png' alt='logo'></a>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <table style='width:100%;max-width:620px;margin:0 auto;background-color:#ffffff;'>
-                        <tbody>
-                                    <p style='margin-bottom: 10px; font-size: 18px;'>$message</b></span><br><br>
-    
-    
-    
-    <b>Our Website</b><br>
-    <i>nedahufoundation.org</i></p>
-    
-    
-    
-                                </td>
-                            </tr>
-    
-    
-    
-                        </tbody>
-                    </table>
-                    <table style='width:100%;max-width:620px;margin:0 auto;'>
-                        <tbody>
-                            <tr>
-                                <td style='text-align: center; padding:25px 20px 0;'>
-    
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-               </td>
-            </tr>
-        </table>
-    </center>";
-    //Add recipient
-        $mail->addAddress("$emailreg");
-    
-    //Finally send email
-        if ( $mail->send() ) {
-            echo "<script>alert('Thanks $name, your feedback was sent successfully we will review and get back to you real soon')</script>";
-        }else{
-            echo "<script>alert('nope')</script>";
-        }
-                                }
 ?>
